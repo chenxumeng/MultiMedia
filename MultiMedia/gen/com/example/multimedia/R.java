@@ -11,22 +11,35 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int forward=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int pause=0x7f020002;
-        public static final int rewind=0x7f020003;
-        public static final int start=0x7f020004;
-        public static final int stop=0x7f020005;
+        public static final int ablum_deflaut=0x7f020000;
+        public static final int forward=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int pause=0x7f020003;
+        public static final int rewind=0x7f020004;
+        public static final int start=0x7f020005;
+        public static final int stop=0x7f020006;
+        public static final int volume=0x7f020007;
     }
     public static final class id {
-        public static final int Forward=0x7f070003;
+        public static final int AudioControl=0x7f070005;
+        public static final int AudioProgress=0x7f070004;
+        public static final int CurrentProgress=0x7f070006;
+        public static final int DurationProgress=0x7f070008;
+        public static final int MusicList=0x7f070003;
         public static final int Pause=0x7f070001;
-        public static final int Rewind=0x7f070004;
+        public static final int Progress=0x7f070007;
+        public static final int RelativeLayout1=0x7f070009;
         public static final int Start=0x7f070000;
         public static final int Stop=0x7f070002;
+        public static final int albumImage=0x7f07000a;
+        public static final int music_Artist=0x7f07000d;
+        public static final int music_duration=0x7f07000b;
+        public static final int music_title=0x7f07000c;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int audioplayer=0x7f030001;
+        public static final int music_list_item_layout=0x7f030002;
     }
     public static final class raw {
         public static final int music1=0x7f040000;
