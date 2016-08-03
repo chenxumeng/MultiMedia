@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.multimedia.audioPlayer"></activity>
+        <activity android:name="com.example.widget.MusicSlidingDrawer"></activity>
     </application>
 
 </manifest>

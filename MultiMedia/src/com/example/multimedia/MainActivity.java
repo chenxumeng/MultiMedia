@@ -3,6 +3,8 @@ package com.example.multimedia;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.example.widget.MusicSlidingDrawer;
+
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -37,6 +39,7 @@ public class MainActivity extends Activity
 	public void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
+		//setContentView(R.layout.music_sliding_drawer);
 		Intent intent = new Intent(MainActivity.this , audioPlayer.class);
 		startActivity(intent);
 	}

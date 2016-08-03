@@ -3,5 +3,6 @@
 
     <string name="app_name">MultiMedia</string>
     <string name="hello_world">Hello world!</string>
+    <string name="default_title_name">欢迎使用音乐播放器</string>  
 
 </resources>

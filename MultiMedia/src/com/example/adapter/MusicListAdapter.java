@@ -1,4 +1,4 @@
-package om.example.adapter;
+package com.example.adapter;
 
 import java.util.List;  
 

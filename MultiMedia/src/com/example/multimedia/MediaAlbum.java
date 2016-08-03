@@ -12,9 +12,12 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.BitmapFactory.Options;
 import android.net.Uri;
+import android.nfc.Tag;
 import android.os.ParcelFileDescriptor;
+import android.util.Log;
 
 public class MediaAlbum {
+	 private static final String  TAG = "MediaAlbum";
 	//获取专辑封面的Uri
 		private static final Uri albumArtUri = Uri.parse("content://media/external/audio/albumart");
 		/**
@@ -26,7 +29,7 @@ public class MediaAlbum {
 			BitmapFactory.Options opts = new BitmapFactory.Options();
 			opts.inPreferredConfig = Bitmap.Config.RGB_565;
 			if(small){	//返回小图片
-				return BitmapFactory.decodeStream(context.getResources().openRawResource(R.drawable.ablum_deflaut), null, opts);
+				return BitmapFactory.decodeStream(context.getResources().openRawResource(R.drawable.ablum_deflaut_small), null, opts);
 			}
 			return BitmapFactory.decodeStream(context.getResources().openRawResource(R.drawable.ablum_deflaut), null, opts);
 		}
